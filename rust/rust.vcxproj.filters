@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\imgui\imgui.cpp">
+      <Filter>Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\imgui\imgui_demo.cpp">
+      <Filter>Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\imgui\imgui_draw.cpp">
+      <Filter>Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\imgui\imgui_impl_dx9.cpp">
+      <Filter>Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\imgui\imgui_impl_win32.cpp">
+      <Filter>Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\imgui\imgui_widgets.cpp">
+      <Filter>Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Menu\Settings.cpp">
+      <Filter>Overlay\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\retake\imgui_tricks.cpp">
+      <Filter>Overlay\retake</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordRPC\src\rpc_connection.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordRPC\src\serialization.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordRPC\src\connection_win.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordRPC\src\discord_register_win.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordRPC\src\discord_rpc.cpp">
+      <Filter>DiscordRPC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordRPC\discordrpc.cpp">
+      <Filter>DiscordRPC</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Overlay\config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="lazy_importer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SDK\BaseNetworkable.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\BasePlayer.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Driver.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\HeldItem.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Imports.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Math.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\safe_ptr.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Utils.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VMProtectSDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\color.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\FontData.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.hpp">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imconfig.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imgui.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imgui_impl_dx9.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imgui_impl_win32.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imgui_internal.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imstb_rectpack.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imstb_textedit.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\imgui\imstb_truetype.h">
+      <Filter>Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Menu\menu.hh">
+      <Filter>Overlay\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Menu\Settings.hpp">
+      <Filter>Overlay\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\button.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\checkbox.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\childs.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\combo.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\slider.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\subtab.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\tab.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\new.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\retake\imgui_tricks.hpp">
+      <Filter>Overlay\retake</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\helpers.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\xorstr.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Aimbot\Aimbot.hpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Aimbot\DoAimbot.hpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\MISC\DoMisc.hpp">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ESP\DrawESP.hpp">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ESP\ESP.hpp">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\EntityLoop.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\MISC\Misc.hpp">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\include\discord_register.h">
+      <Filter>DiscordRPC\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\include\discord_rpc.h">
+      <Filter>DiscordRPC\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\src\msg_queue.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\src\rpc_connection.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\src\serialization.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\src\backoff.h">
+      <Filter>DiscordRPC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC\discordrpc.h">
+      <Filter>DiscordRPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\VMProtectSDK64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\VMProtectSDK64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{2d7fd1dc-5a73-4aac-8d21-a4e92520725b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{f6ac5b84-7858-4642-9f78-4de191c1e8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\imgui">
+      <UniqueIdentifier>{bd206f9b-beae-4fdc-964f-36cb8069ea63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\menu">
+      <UniqueIdentifier>{0988211e-f76f-4302-87ae-d5438855cf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\retake">
+      <UniqueIdentifier>{830331f5-4132-4fd3-9590-2a5662b91a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{37e21ed0-7296-44a4-9cdc-22a7029efdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{daa67c72-e9de-494b-af34-7188b62ff497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{7b8434ea-f522-45d2-8139-bd5e47a2b3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{0bbc1e1c-af9e-427a-aee9-76069787ed4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{ca48afd1-54c8-4198-a773-46239b626547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{ffe78fdc-51a2-4be8-af79-54b35bf82c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\blur">
+      <UniqueIdentifier>{1d30f129-8813-4c2f-ac34-302330e7de71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC">
+      <UniqueIdentifier>{6f17f8e2-b3db-46a0-8c0b-108bb3359bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC\include">
+      <UniqueIdentifier>{1382c2bd-515a-4043-967a-4e60b391c34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordRPC\src">
+      <UniqueIdentifier>{6d95440a-2959-42f4-8afa-34f2202041ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\config">
+      <UniqueIdentifier>{ce81d7c4-37d4-44ca-b3f3-862ecf54d15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\retake\easing">
+      <UniqueIdentifier>{c611721f-bba1-41ae-b107-b7ce6867f49c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
